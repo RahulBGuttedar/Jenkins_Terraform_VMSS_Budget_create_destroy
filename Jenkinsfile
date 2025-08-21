@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Adarshmog/terraform-vmss-azure-budget-alert.git'
+                git branch: 'main', url: 'https://github.com/RahulBGuttedar/Jenkins_Terraform_VMSS_Budget_create_destroy.git'
             }
         }
 
